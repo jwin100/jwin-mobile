@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "sass-resources-loader": "^2.2.5"
+  }
+}

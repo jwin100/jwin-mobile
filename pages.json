@@ -1,0 +1,312 @@
+{
+	"easycom": {
+		"^tn-(.*)": "@/uni_modules/tuniao-ui/components/tn-$1/tn-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/cashier"
+		},
+		{
+			"path": "pages/home"
+		},
+		{
+			"path": "pages/order"
+		},
+		{
+			"path": "pages/mine"
+		},
+		{
+			"path": "pages/login"
+		},
+		{
+			"path": "pages/forget"
+		}
+	],
+	"subPackages": [{
+			"root": "view/home",
+			"pages": [{
+				"path": "more",
+				"style": {
+					"navigationBarTitleText": "更多功能"
+				}
+			}, {
+				"path": "about",
+				"style": {
+					"navigationBarTitleText": "关于我们"
+				}
+			}]
+		},
+		{
+			"root": "view/goods",
+			"pages": [{
+				"path": "index",
+				"style": {
+					"navigationBarTitleText": "商品库"
+				}
+			}, {
+				"path": "add",
+				"style": {
+					"navigationBarTitleText": "新增商品"
+				}
+			}, {
+				"path": "edit",
+				"style": {
+					"navigationBarTitleText": "编辑商品"
+				}
+			}, {
+				"path": "detail",
+				"style": {
+					"navigationBarTitleText": "商品详情"
+				}
+			}, {
+				"path": "category/index",
+				"style": {
+					"navigationBarTitleText": "分类管理"
+				}
+			}, {
+				"path": "category/edit",
+				"style": {
+					"navigationBarTitleText": "编辑分类"
+				}
+			}, {
+				"path": "spec/index",
+				"style": {
+					"navigationBarTitleText": "规格管理"
+				}
+			}, {
+				"path": "spec/edit",
+				"style": {
+					"navigationBarTitleText": "编辑规格"
+				}
+			}, {
+				"path": "unit/index",
+				"style": {
+					"navigationBarTitleText": "单位管理"
+				}
+			}]
+		}, {
+			"root": "view/stock",
+			"pages": [{
+				"path": "index",
+				"style": {
+					"navigationBarTitleText": "门店库存"
+				}
+			}, {
+				"path": "detail",
+				"style": {
+					"navigationBarTitleText": "库存详情"
+				}
+			}, {
+				"path": "selectSku",
+				"style": {
+					"navigationBarTitleText": "采购订单"
+				}
+			}, {
+				"path": "purchase/index",
+				"style": {
+					"navigationBarTitleText": "采购管理"
+				}
+			}, {
+				"path": "purchase/detail",
+				"style": {
+					"navigationBarTitleText": "采购信息"
+				}
+			}, {
+				"path": "purchase/add",
+				"style": {
+					"navigationBarTitleText": "采购"
+				}
+			}, {
+				"path": "purchase/replenish",
+				"style": {
+					"navigationBarTitleText": "采购入库"
+				}
+			}]
+		}, {
+			"root": "view/cashier",
+			"pages": [{
+				"path": "confirm",
+				"style": {
+					"navigationBarTitleText": "收银结算"
+				}
+			}, {
+				"path": "recharge",
+				"style": {
+					"navigationBarTitleText": "会员储值"
+				}
+			}, {
+				"path": "counted",
+				"style": {
+					"navigationBarTitleText": "计次开卡"
+				}
+			}, {
+				"path": "countedWrite",
+				"style": {
+					"navigationBarTitleText": "计次核销"
+				}
+			}]
+		},
+		{
+			"root": "view/order",
+			"pages": [{
+				"path": "detail",
+				"style": {
+					"navigationBarTitleText": "订单详情"
+				}
+			}, {
+				"path": "refund",
+				"style": {
+					"navigationBarTitleText": "退货"
+				}
+			}, {
+				"path": "setting",
+				"style": {
+					"navigationBarTitleText": "订单设置"
+				}
+			}]
+		}, {
+			"root": "view/store",
+			"pages": [{
+				"path": "index"
+			}, {
+				"path": "detail"
+			}, {
+				"path": "add"
+			}, {
+				"path": "edit"
+			}]
+		}, {
+			"root": "view/staff",
+			"pages": [{
+				"path": "index"
+			}, {
+				"path": "detail"
+			}, {
+				"path": "add"
+			}, {
+				"path": "edit"
+			}]
+		}, {
+			"root": "view/mine",
+			"pages": [{
+				"path": "set",
+				"style": {
+					"navigationBarTitleText": "全局设置"
+				}
+			}, {
+				"path": "storeInfo",
+				"style": {
+					"navigationBarTitleText": "门店信息"
+				}
+			}, {
+				"path": "protocol",
+				"style": {
+					"navigationBarTitleText": "服务协议"
+				}
+			}, {
+				"path": "privacy",
+				"style": {
+					"navigationBarTitleText": "隐私协议"
+				}
+			}, {
+				"path": "feedback",
+				"style": {
+					"navigationBarTitleText": "问题反馈"
+				}
+			}, {
+				"path": "wechatLogin",
+				"style": {
+					"navigationBarTitleText": "微信登录"
+				}
+			}]
+		}, {
+			"root": "view/member",
+			"pages": [{
+				"path": "index",
+				"style": {
+					"navigationBarTitleText": "会员"
+				}
+			}, {
+				"path": "detail",
+				"style": {
+					"navigationBarTitleText": "会员详情"
+				}
+			}, {
+				"path": "edit",
+				"style": {
+					"navigationBarTitleText": "编辑会员"
+				}
+			}, {
+				"path": "add",
+				"style": {
+					"navigationBarTitleText": "新增会员"
+				}
+			}, {
+				"path": "counted",
+				"style": {
+					"navigationBarTitleText": "会员计次卡"
+				}
+			}, {
+				"path": "setting",
+				"style": {
+					"navigationBarTitleText": "会员设置"
+				}
+			}]
+		},
+		{
+			"root": "view/market",
+			"pages": [{
+				"path": "recharge/index",
+				"style": {
+					"navigationBarTitleText": "储值管理"
+				}
+			}, {
+				"path": "counted/index",
+				"style": {
+					"navigationBarTitleText": "计次管理"
+				}
+			}, {
+				"path": "counted/edit",
+				"style": {
+					"navigationBarTitleText": "计次管理"
+				}
+			}]
+		}
+	],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#409EFF",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		// "iconWidth": "20px",
+		"list": [{
+			"pagePath": "pages/home",
+			"iconPath": "static/img/tabbar/home.png",
+			"selectedIconPath": "static/img/tabbar/select-home.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/order",
+			"iconPath": "static/img/tabbar/order.png",
+			"selectedIconPath": "static/img/tabbar/select-order.png",
+			"text": "销售"
+		}, {
+			"pagePath": "pages/cashier",
+			"iconPath": "static/img/tabbar/stock.png",
+			"selectedIconPath": "static/img/tabbar/select-stock.png",
+			"text": "收银"
+		}, {
+			"pagePath": "pages/mine",
+			"iconPath": "static/img/tabbar/my.png",
+			"selectedIconPath": "static/img/tabbar/select-my.png",
+			"text": "我的"
+		}]
+	},
+	"globalStyle": {
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "捷盈收银宝",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"enablePullDownRefresh": false
+	}
+}

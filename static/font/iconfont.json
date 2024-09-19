@@ -1,0 +1,142 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "126041522",
+      "name": "分类",
+      "font_class": "category",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "126042027",
+      "name": "3.1 全部商品",
+      "font_class": "goods",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "126042028",
+      "name": "会员管理",
+      "font_class": "member-setting",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "126042029",
+      "name": "库存量",
+      "font_class": "stock",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "126042031",
+      "name": "门店",
+      "font_class": "store",
+      "unicode": "e682",
+      "unicode_decimal": 59010
+    },
+    {
+      "icon_id": "126042033",
+      "name": "标签",
+      "font_class": "tag",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "126042034",
+      "name": "调拨单",
+      "font_class": "allocate",
+      "unicode": "e670",
+      "unicode_decimal": 58992
+    },
+    {
+      "icon_id": "126042036",
+      "name": "订单管理",
+      "font_class": "order-setting",
+      "unicode": "e6e5",
+      "unicode_decimal": 59109
+    },
+    {
+      "icon_id": "126042037",
+      "name": "物料采购",
+      "font_class": "purchase",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "126042038",
+      "name": "库存基础设置",
+      "font_class": "stock-setting",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
+      "icon_id": "126042039",
+      "name": "规格",
+      "font_class": "space",
+      "unicode": "e715",
+      "unicode_decimal": 59157
+    },
+    {
+      "icon_id": "126042041",
+      "name": "店员管理（新）",
+      "font_class": "staff",
+      "unicode": "e66a",
+      "unicode_decimal": 58986
+    },
+    {
+      "icon_id": "126042042",
+      "name": "储值卡",
+      "font_class": "counted",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "126042043",
+      "name": "单位管理",
+      "font_class": "unit",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "126043251",
+      "name": "全部订单",
+      "font_class": "order",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "126043252",
+      "name": "库存",
+      "font_class": "store-record",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "126043256",
+      "name": "会员(1)",
+      "font_class": "member",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "126043260",
+      "name": "3.1会员卡",
+      "font_class": "recharge",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "126094706",
+      "name": "更多",
+      "font_class": "more",
+      "unicode": "e8a6",
+      "unicode_decimal": 59558
+    }
+  ]
+}

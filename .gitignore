@@ -1,0 +1,6 @@
+.DS_Store
+node_modules
+/unpackage
+
+# Editor directories and files
+.hbuilderx
